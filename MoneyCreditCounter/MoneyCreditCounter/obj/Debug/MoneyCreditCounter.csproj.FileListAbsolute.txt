@@ -1,0 +1,10 @@
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\bin\Debug\MoneyCreditCounter.exe.config
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\bin\Debug\MoneyCreditCounter.exe
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\bin\Debug\MoneyCreditCounter.pdb
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\obj\Debug\MoneyCreditCounter.csprojResolveAssemblyReference.cache
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\obj\Debug\MoneyCreditCounter.Form1.resources
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\obj\Debug\MoneyCreditCounter.Properties.Resources.resources
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\obj\Debug\MoneyCreditCounter.csproj.GenerateResource.Cache
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\obj\Debug\MoneyCreditCounter.csproj.CoreCompileInputs.cache
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\obj\Debug\MoneyCreditCounter.exe
+C:\Users\rcatt\OneDrive - Sheffield Hallam University\sem1 assignments\programming assignment\Project\MoneyCreditCounter\MoneyCreditCounter\MoneyCreditCounter\obj\Debug\MoneyCreditCounter.pdb
