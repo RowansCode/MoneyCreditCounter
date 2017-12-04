@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MoneyCreditCounter
+namespace MoneyCreditCount
 {
-    public partial class Form1 : Form
+    public partial class MoneyCreditCounter : Form
     {
-        public Form1()
+        public MoneyCreditCounter()
         {
             InitializeComponent();
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

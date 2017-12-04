@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyCreditCounter", "MoneyCreditCounter\MoneyCreditCounter.csproj", "{6C2BE792-B3EC-48D4-9ECA-7E33A85E5728}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyCreditCount", "MoneyCreditCount\MoneyCreditCount.csproj", "{7D20791F-1BAC-450A-AEFD-FB612E099828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6C2BE792-B3EC-48D4-9ECA-7E33A85E5728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C2BE792-B3EC-48D4-9ECA-7E33A85E5728}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C2BE792-B3EC-48D4-9ECA-7E33A85E5728}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C2BE792-B3EC-48D4-9ECA-7E33A85E5728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D20791F-1BAC-450A-AEFD-FB612E099828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D20791F-1BAC-450A-AEFD-FB612E099828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D20791F-1BAC-450A-AEFD-FB612E099828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D20791F-1BAC-450A-AEFD-FB612E099828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8E600E15-5963-4381-B43F-A9B9F441CB03}
+		SolutionGuid = {F3633754-4FCB-4420-A97E-6A1B078B0986}
 	EndGlobalSection
 EndGlobal
