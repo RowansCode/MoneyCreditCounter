@@ -16,15 +16,5 @@ namespace MoneyCreditCounter
         {
             InitializeComponent();
         }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
