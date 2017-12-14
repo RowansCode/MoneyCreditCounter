@@ -134,6 +134,7 @@
             this.textBox2.TabIndex = 14;
             this.textBox2.Text = "0.00";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox1
             // 
@@ -250,6 +251,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(100, 100);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -319,7 +321,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(243, 359);
+            this.label17.Location = new System.Drawing.Point(214, 359);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(33, 36);
             this.label17.TabIndex = 29;
@@ -339,7 +341,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(243, 264);
+            this.label15.Location = new System.Drawing.Point(214, 264);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(33, 36);
             this.label15.TabIndex = 27;
@@ -359,7 +361,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(243, 158);
+            this.label13.Location = new System.Drawing.Point(214, 158);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(33, 36);
             this.label13.TabIndex = 25;
@@ -379,7 +381,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(243, 41);
+            this.label11.Location = new System.Drawing.Point(214, 41);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(33, 36);
             this.label11.TabIndex = 23;
@@ -399,7 +401,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(27, 359);
+            this.label9.Location = new System.Drawing.Point(6, 359);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(33, 36);
             this.label9.TabIndex = 21;
@@ -419,7 +421,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(27, 264);
+            this.label7.Location = new System.Drawing.Point(6, 264);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(33, 36);
             this.label7.TabIndex = 19;
@@ -439,7 +441,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 158);
+            this.label5.Location = new System.Drawing.Point(6, 158);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(33, 36);
             this.label5.TabIndex = 17;
@@ -477,11 +479,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 41);
+            this.label2.Location = new System.Drawing.Point(6, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 36);
             this.label2.TabIndex = 14;
             this.label2.Text = "0";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox12
             // 
