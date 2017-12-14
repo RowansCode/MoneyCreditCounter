@@ -14,7 +14,7 @@ namespace MoneyCreditCount
     {
         int costPerCredit = 0;  //setting initial values
         int totalValue = 0;
-        int dividedTotalValue;
+        int dividedTotalValue = 0;
         int onePvalue = 0;
         int twoPvalue = 0;
         int fivePvalue = 0;
@@ -32,9 +32,6 @@ namespace MoneyCreditCount
         public MoneyCreditCounter()
         {
             InitializeComponent();
-
-
-            //textBox1.Text = totalValue.ToString();
         }
 
         public void updateBoxes()   //method to update numbers after clicking a coin. Makes code tidy later on
@@ -64,7 +61,7 @@ namespace MoneyCreditCount
         {
             if (costPerCredit <= 0)
             {
-                MessageBox.Show("Please enter a positive value for the Cost Of Credit");    // Makes it so nothing can happen until a Cost Per Credit is set
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");    // Makes it so nothing can happen until a Cost Per Credit is set
             }
             else
             {
@@ -90,6 +87,7 @@ namespace MoneyCreditCount
 
         private void label2_Click(object sender, EventArgs e)
         {
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -97,18 +95,179 @@ namespace MoneyCreditCount
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)  // 2p
         {
             if (costPerCredit <= 0)
             {
-                MessageBox.Show("Please enter a positive value for the Cost Of Credit");
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
             }
             else
             {
                 totalValue = totalValue + 2;
-                twoPvalue = twoPvalue + 2;
-                
+                twoPvalue = twoPvalue + 1;
+                totalValueMoney = totalValueMoney + 0.02;
+                label5.Text = twoPvalue.ToString();
+                updateBoxes();
             }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)  // 5p
+        {
+            if (costPerCredit <= 0)
+            {
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
+            }
+            else
+            {
+                totalValue = totalValue + 5;
+                fivePvalue = fivePvalue + 1;
+                totalValueMoney = totalValueMoney + 0.05;
+                label7.Text = fivePvalue.ToString();
+                updateBoxes();
+            }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)  // 10p
+        {
+            if (costPerCredit <= 0)
+            {
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
+            }
+            else
+            {
+                totalValue = totalValue + 10;
+                tenPvalue = tenPvalue + 1;
+                totalValueMoney = totalValueMoney + 0.1;
+                label9.Text = tenPvalue.ToString();
+                updateBoxes();
+            }
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)  // 20p
+        {
+            if (costPerCredit <= 0)
+            {
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
+            }
+            else
+            {
+                totalValue = totalValue + 20;
+                twentyPvalue = twentyPvalue + 1;
+                totalValueMoney = totalValueMoney + 0.2;
+                label11.Text = twentyPvalue.ToString();
+                updateBoxes();
+            }
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)  // 50p
+        {
+            if (costPerCredit <= 0)
+            {
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
+            }
+            else
+            {
+                totalValue = totalValue + 50;
+                fiftyPvalue = fiftyPvalue + 1;
+                totalValueMoney = totalValueMoney + 0.5;
+                label13.Text = fiftyPvalue.ToString();
+                updateBoxes();
+            }
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)  // £1
+        {
+            if (costPerCredit <= 0)
+            {
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
+            }
+            else
+            {
+                totalValue = totalValue + 100;
+                onePoundValue = onePoundValue + 1;
+                totalValueMoney = totalValueMoney + 1;
+                label15.Text = onePoundValue.ToString();
+                updateBoxes();
+            }
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)  // £2
+        {
+            if (costPerCredit <= 0)
+            {
+                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
+            }
+            else
+            {
+                totalValue = totalValue + 200;
+                twoPoundValue = twoPoundValue + 1;
+                totalValueMoney = totalValueMoney + 2;
+                label17.Text = twoPoundValue.ToString();
+                updateBoxes();
+            }
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)  //  RESET BUTTON
+        {
+            costPerCredit = 0;
+            totalValue = 0;
+            dividedTotalValue = 0;
+            onePvalue = 0;
+            twoPvalue = 0;
+            fivePvalue = 0;
+            tenPvalue = 0;
+            twentyPvalue = 0;
+            fiftyPvalue = 0;
+            onePoundValue = 0;
+            twoPoundValue = 0;
+            totalValueMoney = 0;
+            textBox1.Text = totalValue.ToString();
+            textBox4.Text = dividedTotalValue.ToString();
+            textBox2.Text = totalValueMoney.ToString("N");
+            textBox3.Text = costPerCredit.ToString();
+            label2.Text = onePvalue.ToString();
+            label5.Text = twoPvalue.ToString();
+            label7.Text = fivePvalue.ToString();
+            label9.Text = tenPvalue.ToString();
+            label11.Text = twentyPvalue.ToString();
+            label13.Text = fiftyPvalue.ToString();
+            label15.Text = onePoundValue.ToString();
+            label17.Text = twoPoundValue.ToString();
         }
     }
 }
@@ -116,15 +275,13 @@ namespace MoneyCreditCount
 //
 //if (costPerCredit <= 0)
 //            {
-//                MessageBox.Show("Please enter a positive value for the Cost Of Credit");    // Makes it so nothing can happen until a Cost Per Credit is set
+//                MessageBox.Show("Please enter a positive value for the Cost Per Credit");
 //            }
 //            else
 //            {
 //                totalValue = totalValue + 1;
-//                onePvalue = onePvalue + 1;
+//                onePvalue = onePvalue + 1; // ALWAYS KEEP AS 1
 //                totalValueMoney = totalValueMoney + 0.01;
-//
 //                label2.Text = onePvalue.ToString();
-//
 //                updateBoxes();
 //            }

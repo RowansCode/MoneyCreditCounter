@@ -197,6 +197,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(100, 100);
             this.pictureBox8.TabIndex = 8;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox7
             // 
@@ -206,6 +207,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(100, 100);
             this.pictureBox7.TabIndex = 7;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox6
             // 
@@ -215,6 +217,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(100, 100);
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -224,6 +227,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(100, 100);
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -233,6 +237,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(100, 100);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
@@ -242,6 +247,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(100, 100);
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -326,6 +332,7 @@
             this.label17.Size = new System.Drawing.Size(33, 36);
             this.label17.TabIndex = 29;
             this.label17.Text = "0";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // label14
             // 
@@ -346,6 +353,7 @@
             this.label15.Size = new System.Drawing.Size(33, 36);
             this.label15.TabIndex = 27;
             this.label15.Text = "0";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label12
             // 
@@ -366,6 +374,7 @@
             this.label13.Size = new System.Drawing.Size(33, 36);
             this.label13.TabIndex = 25;
             this.label13.Text = "0";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label10
             // 
@@ -386,6 +395,7 @@
             this.label11.Size = new System.Drawing.Size(33, 36);
             this.label11.TabIndex = 23;
             this.label11.Text = "0";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label8
             // 
@@ -406,6 +416,7 @@
             this.label9.Size = new System.Drawing.Size(33, 36);
             this.label9.TabIndex = 21;
             this.label9.Text = "0";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label6
             // 
@@ -426,6 +437,7 @@
             this.label7.Size = new System.Drawing.Size(33, 36);
             this.label7.TabIndex = 19;
             this.label7.Text = "0";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label3
             // 
@@ -446,6 +458,7 @@
             this.label5.Size = new System.Drawing.Size(33, 36);
             this.label5.TabIndex = 17;
             this.label5.Text = "0";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -549,6 +562,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Reset";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox3
             // 
